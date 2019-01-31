@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game_status {
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+}
+.header__stats {
+  text-decoration: none;
+  padding-left: 30px;
+}
+.header__back {
+  cursor: pointer;
+}
